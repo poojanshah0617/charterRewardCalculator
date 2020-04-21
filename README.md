@@ -30,7 +30,7 @@ the response will consists of the rewards as per the monthly transaction as well
 Rewards calculation is as follow
 
 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent over $50 in each transaction.
-eg. $120 purchase= 2*20+1*50= 90 points
+eg. $120 purchase= 2x20+1x50= 90 points
 
 
 
@@ -38,7 +38,7 @@ eg. $120 purchase= 2*20+1*50= 90 points
 
 Added one more api
 
-# /api/getReward
+*/api/getReward*
 
 Http.GET call 
 
