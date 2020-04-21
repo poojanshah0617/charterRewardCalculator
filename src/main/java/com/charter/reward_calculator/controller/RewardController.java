@@ -20,4 +20,9 @@ public class RewardController {
     public ResponseEntity getReward(@RequestBody CustomerTransaction customerTransaction){
        return new ResponseEntity(rewardService.getReward(customerTransaction), HttpStatus.OK);
     }
+
+    @RequestMapping(path="/api/getReward",method= RequestMethod.GET)
+    public ResponseEntity getRewardV2(){
+       return new ResponseEntity(rewardService.getRewardV2(), HttpStatus.OK);
+    }
 }
