@@ -38,14 +38,14 @@ eg. $120 purchase= 2*20+1*50= 90 points
 
 Added one more api
 
-#/api/getReward
+# /api/getReward
 
 Http.GET call 
 
 Which is a get call, it will return the details of the customer and there reward details. For this customer and transactions are present in H2 database.
 
 Response will be 
-'''
+```
 [
     {
         "customerName": "BOB",
@@ -130,4 +130,4 @@ Response will be
         "totalReward": 146
     }
 ]
-'''
+```
